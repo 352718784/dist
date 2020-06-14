@@ -1,0 +1,2 @@
+webpackJsonp([3],{ns2W:function(n,e){},qPiH:function(n,e,o){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var t={name:"collectedQuestions",data:function(){return{name:"collectedQuestions"}},mounted:function(){console.log(this)},render:function(n,e){var o=this;return console.log("hsq",this,e),n("p",[this.name,n("el-button",{on:{click:function(n){console.log(o,n),o.name="hello"}}},"按钮")])}};var l=o("VU/8")(t,null,!1,function(n){o("ns2W")},"data-v-06e636d3",null);e.default=l.exports}});
+//# sourceMappingURL=3.b03ad6fd579ae90c4ffd.js.map
