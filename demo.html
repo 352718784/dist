@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    function test () {
+      console.log('hello')
+    }
+    const data = {
+      name: ''
+    }
+    Object.defineProperty(data, 'name', {
+      get () {
+        return this.name
+      },
+      set (v) {
+        this.name = v
+      }
+    })
+    console.log(data)
+    data.name = 'zr'
+    console.log(data)
+  </script>
+</body>
+</html>
